@@ -135,3 +135,30 @@ Project Purpose
 The MovieMate REST API forms an important part of the MovieMate Android application by providing a structured backend for retrieving and managing application data.
 
 It demonstrates the integration of a RESTful web service with Firebase Cloud Firestore and supports the application's movie discovery, watchlist and rating functionality.
+
+
+Release Notes – Version 1.0
+
+This release contains the final implementation of MovieMate following the initial prototype.
+
+The updates include:
+
+Improved user interface and navigation.
+
+User registration and login using Firebase Authentication.
+
+Movie searching and movie detail viewing through the backend API.
+
+Watchlist functionality with Firebase Firestore integration.
+
+User settings and application preferences.
+
+Multiple language support.
+
+Offline functionality.
+
+Improved input handling and error messages.
+
+Backend API integration for retrieving movie information.
+
+This version also includes improvements to the overall application structure, reliability and user experience.
