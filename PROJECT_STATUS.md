@@ -1,6 +1,6 @@
 # MovieMate code review and verification status
 
-## Changes made in this working copy
+## Changes made 
 
 - Changed the launcher activity to AppCompatActivity so AppCompat application-language changes can be applied to the activity.
 - Connected the persisted dark-mode setting to the app-wide Compose theme.
