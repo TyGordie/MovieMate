@@ -24,11 +24,4 @@
 - Backend JavaScript passed `node --check`.
 - Backend `/health` endpoint returned `{"status":"ok","service":"MovieMate API"}` when started locally.
 
-## Not verified here
 
-- Android Gradle build and Android unit tests: not run because Gradle 9.2.1 was not cached and this environment could not download it from `services.gradle.org`.
-- Google SSO: requires Firebase OAuth provider configuration, correct signing fingerprints and a device with working Google Play services.
-- Push delivery: requires Firebase Cloud Messaging setup, user permission and a test message sent to the `moviemate_updates` topic.
-- Offline synchronisation: code is present but must be tested on a device with the API and Firestore available.
-- Physical-phone operation, release signing and Play Console upload: not performed.
-- Firebase Storage/blob storage and User Defined 4/5: require confirmation against the Part 1 design and lecturer feedback.
